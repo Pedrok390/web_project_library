@@ -120,6 +120,7 @@ ul {
   gap: 40px;
   list-style-type: none;
   margin-top: 68px;
+  margin-bottom: 0;
 }
 
 .card {
