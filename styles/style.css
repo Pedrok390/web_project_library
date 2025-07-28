@@ -349,11 +349,11 @@ ul {
 }
 
 .footer__column_content_hours {
-  margin: auto;
-  margin-right: 80px;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
+  margin-left: 80px;
 }
 
 .footer__logo {
@@ -381,12 +381,14 @@ ul {
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin-right: 10px;
 }
 
 .footer__copyright {
